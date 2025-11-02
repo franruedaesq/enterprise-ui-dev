@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'vitest';
 
 describe('toBe', () => {
+  // test.fails is used to indicate that these tests are expected to fail
   test.fails('objects should not be strictly equal', () => {
     expect({ a: 1 }).toBe({ a: 1 });
   });
